@@ -7,7 +7,7 @@
                 <h4 class="fw-bold">ระบบจัดการห้องสมุด</h4>
                 <!-- <small class="text-muted">โรงเรียนของเรา</small> -->
             </div>
-            <form action="/library-system-php/public/login.handler.php" method="POST">
+            <form action="login.handler.php" method="POST">
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control" id="username" name="username" placeholder="ชื่อผู้ใช้" required>
                     <label for="username">ชื่อผู้ใช้</label>

@@ -11,6 +11,10 @@ date_default_timezone_set('asia/bangkok');
 
     <!-- css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <title>Library-System</title>
 </head>
 

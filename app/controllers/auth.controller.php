@@ -17,11 +17,12 @@ function loginHandler() {
 
     if ($user && password_verify($password, $user['password'])) {
         $_SESSION['user'] = $user;
-        header('Location: /library-system-php/public/dashboard.php');
+        $_SESSION['login_success'] = true;
+        header('Location: login.php');
         exit;
     } else {
         $_SESSION['login_error'] = "ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง";
-        header('Location: /library-system-php/public/login.php');
+        header('Location: login.php');
         exit;
     }
 }
