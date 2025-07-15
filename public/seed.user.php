@@ -1,4 +1,5 @@
 <?php
+// pubilc/seed.user.php
 require_once __DIR__ . '/../config/database.php';
 
 // ข้อมูลที่ต้องการเพิ่ม

@@ -1,5 +1,5 @@
 <?php
-//public/login.handler.php
+// public/login.handler.php
 session_start();
 
 require_once __DIR__ . '/../config/database.php';
@@ -11,7 +11,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     header("Location: login.php");
     exit;
 }
-
-loginHandler(); 
+ 
 ?>
 
