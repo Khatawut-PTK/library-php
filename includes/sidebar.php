@@ -1,5 +1,6 @@
 <!-- includes/sidebar.php -->
-<div class="bg-white border rounded p-3 shadow-sm" style="min-height: 400px;">
+<div class="bg-white border rounded p-3 shadow-sm h-100" style="min-height: 100vh;">
+    <h5 class="mb-3 text-primary"><i class="bi bi-menu-button-wide me-2"></i>เมนูหลัก</h5>
     <ul class="nav flex-column">
         <li class="nav-item">
             <a href="dashboard.php" class="nav-link <?= basename($_SERVER['PHP_SELF']) === 'dashboard.php' ? 'active text-primary fw-bold' : 'text-dark' ?>">
